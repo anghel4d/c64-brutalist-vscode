@@ -40,6 +40,11 @@
         "label": "C64 Brutalist",
         "uiTheme": "vs-dark",
         "path": "./themes/c64-brutalist-color-theme.json"
+      },
+      {
+        "label": "C64 Brutalist Darker",
+        "uiTheme": "vs-dark",
+        "path": "./themes/c64-brutalist-darker-color-theme.json"
       }
     ]
   }

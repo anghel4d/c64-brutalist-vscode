@@ -1,14 +1,24 @@
 # C64 Brutalist
 
-A dark, low-glare theme for Visual Studio Code and Cursor. Calm blue-gray surfaces keep the interface readable; saturated early-PC colors make syntax structure obvious without turning the whole workbench into neon.
+A dark, low-glare theme family for Visual Studio Code and Cursor. Saturated early-PC colors make syntax structure obvious without turning the whole workbench into neon.
+
+- **C64 Brutalist** uses calm blue-gray surfaces.
+- **C64 Brutalist Darker** keeps the same pastel syntax palette over the exact workbench surface hierarchy from VS Code's Dark 2026 theme: `#121314` editor, `#191a1b` chrome, `#202122` widgets, and `#242526` raised content.
+
+![C64 Brutalist Darker in Cursor](images/c64-brutalist-darker.png)
+
+The Darker workbench surface hierarchy is derived from [VS Code Dark 2026](https://github.com/microsoft/vscode/blob/main/extensions/theme-defaults/themes/2026-dark.json); its syntax and semantic colors remain C64 Brutalist.
 
 ## Palette
 
 | Role | Color |
 | --- | --- |
-| Editor | `#202430` |
-| Raised surface | `#262b38` |
-| Selection | `#394254` |
+| Brutalist editor | `#202430` |
+| Brutalist raised surface | `#262b38` |
+| Darker editor | `#121314` |
+| Darker chrome | `#191a1b` |
+| Darker widget | `#202122` |
+| Selection | `#394254` / Dark 2026 selection tones |
 | Text | `#b6bac8` |
 | Secondary text | `#939bac` |
 | Accent | `#a2abcf` |
@@ -33,7 +43,7 @@ code --install-extension .\c64-brutalist-theme-1.0.0.vsix
 cursor --install-extension .\c64-brutalist-theme-1.0.0.vsix
 ```
 
-Select **C64 Brutalist** with **Preferences: Color Theme**. The extension changes colors only; it does not modify fonts, keybindings, editor behavior, or extensions.
+Select **C64 Brutalist** or **C64 Brutalist Darker** with **Preferences: Color Theme**. The extension changes colors only; it does not modify fonts, keybindings, editor behavior, or extensions.
 
 ## Develop
 
