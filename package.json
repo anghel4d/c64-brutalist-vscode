@@ -1,0 +1,46 @@
+{
+  "name": "c64-brutalist-theme",
+  "displayName": "C64 Brutalist",
+  "description": "Dark low-glare surfaces with vivid early-PC syntax colors.",
+  "version": "1.0.0",
+  "publisher": "anghel4d",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anghel4d/c64-brutalist-vscode.git"
+  },
+  "homepage": "https://github.com/anghel4d/c64-brutalist-vscode#readme",
+  "bugs": {
+    "url": "https://github.com/anghel4d/c64-brutalist-vscode/issues"
+  },
+  "galleryBanner": {
+    "color": "#202430",
+    "theme": "dark"
+  },
+  "keywords": [
+    "c64",
+    "brutalist",
+    "dark theme",
+    "low glare",
+    "vivid syntax",
+    "cursor"
+  ],
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "extensionKind": [
+    "ui"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "C64 Brutalist",
+        "uiTheme": "vs-dark",
+        "path": "./themes/c64-brutalist-color-theme.json"
+      }
+    ]
+  }
+}
