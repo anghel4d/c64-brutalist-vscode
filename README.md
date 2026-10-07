@@ -55,4 +55,4 @@ npx --yes @vscode/vsce package
 
 ## License
 
-MIT
+All rights reserved. See [LICENSE](LICENSE).
